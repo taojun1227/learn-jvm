@@ -1,0 +1,242 @@
+魔数：cafebabe
+
+次版本号：00 00
+0
+主版本号；00 31
+49 对应jdk1.5
+
+常量池大小：00 25
+37
+
+ConstantPool：
+
+1
+tag：0a CONSTANT_Methodref_info
+index: 00 07  #7
+index: 00 1f	#31
+2
+tag: 09 CONSTANT_Fieldref_info
+index: 00 03 #3
+index: 00 20 #32
+3
+tag: 07 CONSTANT_class_info
+index: 00 21 #33
+4
+tag: 0a CONSTANT_Methodref_info
+index：00 03 #3
+index：00 1f #31
+5
+tag: 08 CONSTANT_string_info
+index: 00 22 #34
+6
+tag: 09 CONSTANT_Fieldref_info
+index: 00 03 #3
+index: 00 23 #35
+7
+tag: 07 CONSTANT_class_info
+index: 00 24 #36
+8
+tag: 01 CONSTANT_utf8_info
+length: 00 03 ->3
+bytes: 73 74 72 -> 115 116 114 -> str
+9
+tag: 01 CONSTANT_utf8_info
+length: 00 12 ->18
+bytes: 4c 6a 61 76 61 2f 6c 61  6e 67 2f 53 74 72 69 6e 67 3b -> Ljava/lang/String;
+10
+tag: 01 CONSTANT_utf8_info
+length: 00 01
+bytes: 61 -> a
+11
+tag: 01 CONSTANT_utf8_info
+length: 00  01
+bytes: 49 -> I
+12
+tag: 01 CONSTANT_utf8_info
+length: 00 06
+bytes:  3c 69 6e 69 74 3e -> <init>
+13
+tag: 01 CONSTANT_utf8_info
+length: 00 03
+bytes: 28 29  56 -> ()V
+14
+tag: 01 CONSTANT_utf8_info
+length: 00 04
+bytes: 43 6f 64 65 -> Code
+15
+tag: 01 CONSTANT_utf8_info
+length: 00 0f ->15
+bytes: 4c 69 6e 65 4e  75 6d 62 65 72 54 61 62 6c 65 -> LineNumberTable
+16
+tag: 01 CONSTANT_utf8_info
+length:  00 12 -> 18
+bytes: 4c 6f 63  61 6c 56 61 72 69 61 62 6c 65 54 61 62 6c 65 -> LocalVariableTable
+17
+tag: 01 CONSTANT_utf8_info
+length: 00 04
+bytes: 74 68 69 73 -> this
+18
+tag: 01 CONSTANT_utf8_info
+length: 00 25 => 37
+bytes:
+4c 63 6f 6d 2f 6a 74 2f
+6c 65 61 72 6e 2f 62 79
+74 65 63 6f 64 65 2f 42
+79 54 65 43 6f 64 65 54
+65 73 74 31 3b  -> Lcom/jt/learn/bytecode/ByteCodeTest1;
+19
+tag: 01 CONSTANT_utf8_info
+length: 00 04
+bytes: 64 65 6d 6f -> demo
+20
+tag: 01 CONSTANT_utf8_info
+length: 00 26 -> 38
+bytes:
+28 4c 6a 61 76 61 2f 6c
+61 6e 67 2f 53 74 72 69
+6e 67 3b 29 4c 6a 61 76
+61 2f 6c 61 6e 67 2f 53
+74 72 69 6e 67 3b
+-> (Ljava/lang/String;)Ljava/lang/String;
+21
+tag: 01 CONSTANT_utf8_info
+length: 00  04
+bytes: 6e 61 6d 65 -> name
+22
+tag: 01 CONSTANT_utf8_info
+length: 00 04
+bytes: 6d 61 69 6e -> main
+23
+tag: 01 CONSTANT_utf8_info
+length: 00 16-> 22
+bytes:
+28 5b 4c 6a 61 76 61 2f 6c
+61 6e 67 2f 53 74 72 69 6e
+67 3b 29 56 -> ([Ljava/lang/String;)V
+24
+tag: 01 CONSTANT_utf8_info
+length: 00 04
+bytes: 61 72 67 73 -> args
+25
+tag: 01 CONSTANT_utf8_info
+length: 00 13
+bytes:
+5b 4c 6a 61 76 61 2f 6c 61
+6e 67 2f 53 74 72 69 6e  67
+3b -> [Ljava/lang/String;
+26
+tag: 01 CONSTANT_utf8_info
+length:  00 0d -> 13
+bytes:
+62 79 54 65 43 6f 64 65 54 65 73
+74 31 -> byteCodeTest1
+27
+tag: 01 CONSTANT_utf8_info
+length: 00 01
+bytes: 62 -> b
+28
+tag: 01 CONSTANT_utf8_info
+length: 00 08
+bytes:
+3c 63 6c 69 6e 69 74  3e -> <clinit>
+29
+tag: 01 CONSTANT_utf8_info
+length: 00 0a ->10
+bytes:
+53 6f 75 72 63 65 46
+69 6c 65 - > SourceFile
+30
+tag: 01 CONSTANT_utf8_info
+length: 00 12 ->18
+bytes:
+42 79 54 65 43 6f 64
+65 54 65 73 74 31 2e
+6a 61 76 61 -> ByteCodeTest1.java
+31
+tag: 0c CONSTANT_NameAndType_info
+index: 00 0c -> #12
+index: 00 0d -> #13
+32
+tag: 0c CONSTANT_NameAndType_info
+index: 00 0a -> #10
+index: 00 0b -> #11
+33
+tag: 01 CONSTANT_utf8_info
+length:  00 23 -> 35
+bytes:
+63 6f 6d 2f 6a 74 2f 6c
+65 61 72 6e 2f 62 79 74
+65 63 6f 64 65 2f 42 79
+54 65 43 6f 64 65 54 65
+73 74 31 -> com/jt/learn/bytecode/ByteCodeTest1
+34
+tag: 01 CONSTANT_utf8_info
+length: 00 03
+bytes: 61 62 63 -> abc
+35
+tag: 0c CONSTANT_NameAndType_info
+index: 00 08 -> #8
+index: 00 09 -> #9
+36
+tag: 01  CONSTANT_utf8_info
+length: 00  10 -> 16
+bytes:
+6a 61 76 61 2f 6c 61
+6e 67 2f 4f 62 6a 65
+63 74 -> java/lang/Object
+
+类的访问控制权限：00 21
+类名： 00 03 -> #3
+父类名： 00 07-> #7
+实现的接口个数：00 00
+
+成员属性数量：00 02
+field_info:
+    access_flags: 00 09 -> public static
+    name_index: 00 08 -> #8 str
+    descriptor_index: 00  09 ->#9 Ljava/lang/String;
+    attributes_count(属性的属性，如果在属性前面加深final，就会多一个ConstantVlue): 00 00
+field_info:
+    access_flags: 00 01 -> public
+    name_index: 00 0a -> #10 a
+    descriptor_index: 00  0b ->#9 I
+    attributes_count: 00 00
+成员方法数量： 00 04
+第一个方法：
+method_info：
+    access_flags: 00 01 -> public
+    name_index: 00 0c -> #12 <init>
+    descriptor_index: 00 0d -> #13 ()V
+    attributes_count: 00 01
+    attributes_info:
+        attributes_name_index: 00 0e ->#14 Code
+        attributes_length: 00 00 00 38
+        max_stack(操作数栈): 00 02
+        max_locals(局部变量表): 00 01
+        code_length: 00 00 00 0a -> 10
+        code（字节码指令）: 2a b7 00 01 2a
+              04 b5 00 02 b1
+        exception_table_length: 00 00
+        attribute_count: 00 02
+            attribute_name_index: 00 0f ->#15 LineNumberTable
+            attribute_length: 00 00 00 0a -> 10
+            line_number_table_length: 00 02
+                start_pc: 00 00
+                line_number: 00 0e
+
+                start_pc: 00 04
+                line_number: 00 10
+
+            attribute_name_index: 00 10 -> LocalVariableTable
+            attribute_length: 00 00 00 0c -> 12
+            local_variable_table_length: 00 01
+                start_pc: 00 00
+                length: 00 0a
+                name_index: 00 11 -> #17
+                descriptor_index: 00  12->#18
+                index: 00 00
+
+目前只解析了第一个方法
+
+
+
