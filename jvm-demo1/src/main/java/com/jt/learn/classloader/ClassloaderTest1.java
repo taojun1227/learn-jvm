@@ -1,5 +1,11 @@
 package com.jt.learn.classloader;
 
+import com.jt.learn.classloader.loader.MyCLassloader1;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Properties;
+
 /**
  * <p>Title: Test_1 </p>
  *
@@ -15,11 +21,16 @@ public class ClassloaderTest1 {
     public static final int  a = 10;
     public static int b = 5;
 
-    public static void main(String[] args) {
-//        int [] a = new int[10];
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+
+//        Properties properties = System.getProperties();
+//        for(Object obj : properties.keySet()) {
+//            System.out.println(obj);
 //
-//        Test_1[] b = new Test_1[2];
-//        while (true);
-        System.out.println(new String(new byte[] {67,111,100,101}));
+//        }
+//        System.out.println(properties.getProperty("java.home"));
+        MyCLassloader1 myCLassloader1 = new MyCLassloader1();
+        myCLassloader1.loadClass("com.jt.learn.classloader.loader.MyCLassloaderTest");
+        while (true);
     }
 }
