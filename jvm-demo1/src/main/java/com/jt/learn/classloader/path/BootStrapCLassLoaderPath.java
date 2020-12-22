@@ -16,7 +16,7 @@ public class BootStrapCLassLoaderPath {
         String[] property = System.getProperty("sun.boot.class.path").split(":");
 //        property = property+":/home/ziya/Documents/openjdk/build/linux-x86_64-normal-server-slowdebug/jdk/lib/mmp.jar";
 //        System.setProperty("sun.boot.class.path",property);
-//        Arrays.stream(property).forEach(System.out::println);
+        Arrays.stream(property).forEach(System.out::println);
         System.out.println(property);
         URL[] urLs = Launcher.getBootstrapClassPath().getURLs();
 //        Stream.of(urLs).forEach(System.out::println);

@@ -15,6 +15,7 @@ public class Test_1 {
 
     public static void main(String[] args) {
         System.out.println(Test_1_B.str);
+        Test_1_B.parentStaticMethod();
 
     }
 
@@ -30,8 +31,13 @@ class Test_1_A {
     {
         System.out.println("A Block");
     }
+
     static{
         System.out.println("A static Block");
+    }
+
+    public static void parentStaticMethod() {
+        System.out.println("A Static Method");
     }
 
 
