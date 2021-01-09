@@ -1,6 +1,7 @@
 package com.jt.learn.klass;
 
 import com.jt.learn.classloader.loading.Test_1;
+import com.jt.learn.jvmmemory.stack.StackTest1;
 
 import java.util.AbstractCollection;
 
@@ -19,6 +20,7 @@ public class Klass_Test_1 {
     private Integer num;
     private String str;
     private Test_1 test_1;
+    public static StackTest1 stackTest1 = new StackTest1();
 
     public Klass_Test_1(){}
     public Klass_Test_1(String str, Integer num, Test_1 test_1) {
