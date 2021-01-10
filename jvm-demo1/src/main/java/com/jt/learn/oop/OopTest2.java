@@ -1,5 +1,7 @@
 package com.jt.learn.oop;
 
+import org.openjdk.jol.info.ClassLayout;
+
 /**
  * <p>Title: OopTest2 </p>
  *
@@ -14,9 +16,8 @@ package com.jt.learn.oop;
 public class OopTest2 {
     public static void main(String[] args) {
 //        OopTest2 oopTest2 = new OopTest2();
-        int[] arrs = {1,2,3};
-        Class clazz = OopTest2.class;
-
-        while (true);
+        int[] arrs = {4,5,6};
+        while(true);
+//        System.out.println(ClassLayout.parseInstance(arrs).toPrintable());
     }
 }
