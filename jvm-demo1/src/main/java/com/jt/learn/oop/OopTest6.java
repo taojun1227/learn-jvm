@@ -15,7 +15,7 @@ import org.openjdk.jol.info.ClassLayout;
  */
 public class OopTest6 {
     public static void main(String[] args) {
-        int [] m8 = new int[2048-4];
+        int [] m8 = new int[1024*1024*2-4];
         System.out.println(ClassLayout.parseInstance(m8).toPrintable());
     }
 }
