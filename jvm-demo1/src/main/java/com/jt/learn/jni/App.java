@@ -15,9 +15,11 @@ import com.sun.org.apache.xerces.internal.dom.PSVIAttrNSImpl;
  */
 public class App {
     public static void main(String[] args) {
+        // 打印加载动态链接库的目录
         System.out.println(System.getProperty("java.library.path"));
-        System.loadLibrary("jni");
-
-//        new JniDemo().callCppMethod();
+        // 加载动态链接库
+        System.loadLibrary("com_jt_learn_jni_JniDemo");
+        // 调用本地方法
+        new JniDemo().callCppMethod();
     }
 }
